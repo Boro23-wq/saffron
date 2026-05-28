@@ -6,7 +6,7 @@ export default function Footer() {
     <footer className="bg-[#2C1A0E] py-12 px-6 border-t border-[#FDF6EC]/5">
       <div className="max-w-6xl mx-auto flex flex-col md:flex-row items-center justify-between gap-6">
         <div className="display-font text-2xl font-bold text-[#FDF6EC]">
-          🧡 Saffron
+          Saffron
         </div>
         <div className="flex gap-6 text-sm font-body text-[#FDF6EC]/40">
           {["About", "How it works", "Become a chef", "Support", "Privacy"].map(

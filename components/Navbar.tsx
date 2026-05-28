@@ -27,7 +27,7 @@ export default function Navbar() {
           className="display-font text-2xl font-bold text-[#2C1A0E]"
           whileHover={{ scale: 1.02 }}
         >
-          🧡 Saffron
+          Saffron
         </motion.div>
         <div className="hidden md:flex items-center gap-8 font-body text-sm font-medium text-[#2C1A0E]/70">
           {["How it works", "Chefs", "Menu", "Pricing"].map((item) => (
