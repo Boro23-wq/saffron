@@ -1,0 +1,62 @@
+@import "tailwindcss";
+
+@theme {
+  --color-saffron-50: #fff8f0;
+  --color-saffron-100: #fef0dc;
+  --color-saffron-200: #fdd9a8;
+  --color-saffron-300: #fbb95e;
+  --color-saffron-400: #f99b2a;
+  --color-saffron-500: #e87e0a;
+  --color-saffron-600: #c46207;
+  --color-saffron-700: #9a4a06;
+  --color-saffron-800: #6d340a;
+  --color-saffron-900: #3d1c05;
+  --color-cream: #fdf6ec;
+  --color-bark: #2c1a0e;
+}
+
+:root {
+  --saffron: #f99b2a;
+  --saffron-dark: #c46207;
+  --cream: #fdf6ec;
+  --bark: #2c1a0e;
+  --font-display: "Playfair Display", Georgia, serif;
+  --font-body: "DM Sans", system-ui, sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: var(--cream);
+  color: var(--bark);
+  font-family: var(--font-body);
+  overflow-x: hidden;
+}
+
+::selection {
+  background: var(--saffron);
+  color: white;
+}
+
+::-webkit-scrollbar {
+  width: 6px;
+}
+::-webkit-scrollbar-track {
+  background: var(--cream);
+}
+::-webkit-scrollbar-thumb {
+  background: var(--saffron);
+  border-radius: 3px;
+}
+
+.display-font {
+  font-family: var(--font-display);
+}
+.font-body {
+  font-family: var(--font-body);
+}
